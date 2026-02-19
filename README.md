@@ -1,42 +1,52 @@
-# SketchRace
+# 🎉 Pixel Party
 
-- Real-time multiplayer drawing and guessing game
-- One player draws while others guess the word
-- Focused on low-latency and smooth real-time sync
+Welcome to **Pixel Party** — a real-time multiplayer **drawing & guessing game** inspired by Skribbl.io, where players sketch, guess, and have fun together! 🎨🧠
 
-## Problem
-- Real-time games suffer from latency and state mismatch
-- Syncing canvas data across multiple users is challenging
-- Handling joins, leaves, and disconnects is non-trivial
+Pixel Party brings friends and strangers together in a vibrant online space to compete in creative guess-the-drawing rounds.
 
-## How it works
-- Player creates or joins a game room
-- One player is assigned as the drawer
-- Drawing strokes are streamed using WebSockets
-- Other players submit guesses in real time
-- Scores are calculated based on guess speed
-- Turn rotates after each round
+---
 
-## Tech stack
+## 🕹️ Live Demo
 
-Frontend
-- Next.js
-- TypeScript
-- Canvas API
+🚀 A live hosted demo (if any)  
+🔗 *(Add your live demo link here — e.g., https://pixelparty.example.com)*
 
-Backend
-- Node.js
-- Socket.IO
+---
 
-## Why WebSockets
-- Enables real-time bidirectional communication
-- Keeps drawings and guesses in sync
-- Ensures low latency for multiplayer gameplay
+## 📌 About
 
-## Failure handling
-- Handles player disconnects gracefully
-- Reassigns drawer if a player leaves
-- Maintains consistent game state
+Pixel Party is a browser-based multiplayer game built with modern web technologies. Players join rooms, take turns drawing randomly selected words, and race to guess what others are drawing. Each correct guess earns points — see who tops the leaderboard!
 
-## Author
-- Prince Jain
+This project blends real-time interaction, smooth UI, and fun gameplay to build an engaging online experience.
+
+---
+
+## 🎯 Features
+
+✨ Real-time multiplayer gameplay  
+🖌️ Smooth canvas drawing tools  
+❓ Random word prompts  
+🌍 Public and private rooms  
+⭐ Scoreboard & turn system  
+🎶 Fun and colorful UI  
+⚡ Fast and responsive
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| 🖥️ Frontend | React |
+| 🎨 UI | CSS / Tailwind / Custom Styles |
+| 🔌 Backend | Node.js + WebSockets |
+| ⚡ Realtime | Socket.IO |
+| 📦 Build | Vite / Webpack |
+| 🚀 Hosting | (Optional) Vercel / Netlify |
+| 📟 Deployment | Heroku / Railway / AWS |
+
+*(Adjust if your actual stack differs)*
+
+---
+
+
